@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+ #  "#"this is comment
+ # use "./look_temp"
+ #chmod 755 look_temp => everyone can use 
+
+vcgencmd measure_temp
