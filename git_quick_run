@@ -3,7 +3,7 @@ git diff
 
 git status
 echo your token is
-echo 3349b4bf40a0466fb2ff2c93f1eb11f1b94a2800
+echo hi
 echo press y to execute
  read keyboard
  vyes="y"
