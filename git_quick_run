@@ -1,0 +1,19 @@
+#!/bin/bash
+git diff
+
+git status
+echo your token is
+echo 325e690f2589b30a807fabb2b6198c2331ff34c7
+echo press y to execute
+ read keyboard
+ vyes="y"
+ echo your inpunt is $keyboard
+if [ "$keyboard" = "$vyes" ];then
+git add .
+git commit
+else
+ echo nothing happend
+fi
+
+
+
