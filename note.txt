@@ -1,0 +1,21 @@
+network
+1.rfkill
+2.iwlist
+=================================================
+lsb
+apt-get ins lsb-core
+#sudo iwlist wlan0 scanning
+=================================================
+Mariadb (sql)
+ SCHEMA,CATALOG
+1.  select  TABLE_CATALOG , TABLE_SCHEMA,TABLE_NAME,VERSION   from  information_schema.tables 
+2.  show columns  from information_schema.tables;
+***************************************************************************
+3.  You can execute SQL statements in a script file (batch file) like this:
+  mysql db_name < script.sql > output.tab
+4. show databases
+5. DESCRIBE   id_m_gunname;
+*****************************************************************************
+import denied
+6.import csv file path /var/tmp/
+ ex: /var/tmp/file1.csv
